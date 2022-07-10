@@ -18,7 +18,7 @@ There were a total of 369,711 total votes. There were 3 candidates Charles Caspe
 The winner of the election is Diana DeGette.
 
 ## Challenge Overview
- After finding all unique names in the data it becomes chanllenging to understand the logic when tracking the candidates voter count as it increments + 1 for each candidate. The most chanlleging portion of this task was adjusting intendation to allow code to properly execute.
+ After finding all unique names in the data it becomes chanllenging to understand the logic when tracking the candidates voter count as it increments + 1 for each candidate. The most challenging portion of this task was adjusting intendation to allow code to properly execute.
 
 ## Challenge Summary
 Audit the election results and determine the winner of the election. Show the percentage and popular vote per candidate.
