@@ -1,24 +1,38 @@
 # Election_Analysis
 
-## Project Overview
+## Overview of Election Audit:
 A Colorado Board of Elections employee has provided the raw data for the recent election, they ask me to preform an audit to evaulate the results of the election. I have been asked to-
 1. Calculate total number of votes
 2. Get a list of all the candidates that where voted for. 
 3. Calculate the total number votes for each canduidate. 
 4. Find the percentages for each candidate. 
 5. Determine the winner of the election based on populat vote.
+6. Determine the contributing counties
+7. Calculate the total number of votes for each county
+8. Find a percentage of votes per county
+9. Determine the largest voter turnout
 
-## Resources
-Data Source: election_results.csv
-Software: Python 3.9.12, Visual Studio Code 1.68.1
+## Election Audit Results: 
+- There were a total of 369,711 total votes.
+-Counties:
+    - Jefferson: 10.5% (38,855)
+    - Denver: 82.8% (306,055)
+    - Arapahoe: 6.7% (24,801)
+    - Denver had the largest amount of votes.
+-Candidates:
+    - Charles Casper Stockham: 23.0% (85,213)
+    - Diana DeGette: 73.8% (272,892)
+    - Raymon Anthony Doane: 3.1% (11,606)
+Winner of Election:
+    - Winner: Diana DeGette
+    - Winning Vote Count: 272,892
+    - Winning Percentage: 73.8%
 
-## Summary
-The analysis of the election shows that: 
-There were a total of 369,711 total votes. There were 3 candidates Charles Casper, Diana DeGette, Raymon Anthony Doanne. The candidate results were Charles Casper Stockham: received 23.0% of the vote with 85,213 votes. Diana DeGette received 73.8% of the vote with 272,892 votes. Raymon Anthony Doane received 3.1% of the vote with 11,606 votes. 
-The winner of the election is Diana DeGette.
+## Election-Audit Summary
+This script can be used for any election with simple modifications from counties to want states or zipcodes as a geographic boundary to determine what areas contribute more to elections. As long as the data is valid and void of errors the script will work correctly. Another use for this script could be to find largest donated quantity to each campaigns, by simply changing "candidates" to "donors", instead of ingesting "votes" it would ingest "dollars" also by changing the "increment =+ 1" code to a "sum" code we can determine sum of donations for each candidate. 
 
 ## Challenge Overview
- After finding all unique names in the data it becomes chanllenging to understand the logic when tracking the candidates voter count as it increments + 1 for each candidate. The most challenging portion of this task was adjusting intendation to allow code to properly execute.
+ After finding all unique candidate names and counties it becomes chanllenging to tracking variables as it gets manipulated for computation. The some of the most challenging portion of this task was adjusting intendation to allow code to execute properly, understanding what should and should not lie within a for loop or if statement, and visualizing data as it gets manipulated because we cannot always physically see what is happening to the data we have to rely on our knowledge to visualize the state of the data as it undergoes processing. 
 
 ## Challenge Summary
 Audit the election results and determine the winner of the election. Show the percentage and popular vote per candidate.
