@@ -39,4 +39,4 @@ This script can be used for any election with simple modifications from counties
  After finding all unique candidate names and counties it becomes chanllenging to tracking variables as it gets manipulated for computation. The some of the most challenging portion of this task was adjusting intendation to allow code to execute properly, understanding what should and should not lie within a for loop or if statement, and visualizing data as it gets manipulated because we cannot always physically see what is happening to the data we have to rely on our knowledge to visualize the state of the data as it undergoes processing. 
 
 ## Challenge Summary
-Audit the election results and determine the winner of the election. Show the percentage and popular vote per candidate.
+Audit the election results and determine the winner of the election. Show the percentage and popular vote per candidate. Audit county votes and determine the county with the largest voter turnout. Show the percentage of voters and quantity of votes per county.
